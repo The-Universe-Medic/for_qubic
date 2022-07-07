@@ -31,7 +31,7 @@ You can download VirtualBox from any website, but I advise you to use the [offic
 ## Preparing the boot disk ([graphical representation of text material](#graph_preparing_boot_disk))
 We create a virtual disk using standard Windows tools.
 
->1. Opening Computer Management
+>1. Opening Computer Management -> Disk Management
 >2. Action -> Create VHD
 >3. In the `location` field, specify the full path to the file and its name
 >4. In the Virtual hard disk size line, specify the required volume of the disk being created
@@ -48,11 +48,36 @@ After the completed actions, a new space will appear in Computer Management. For
 >6. File system - `FAT32`
 >7. Next -> Finish
 
-The new memory space will appear in explorer as a separate disk.
+The new memory space will appear in explorer as a separate disk. After writing the required files, you need to disconnect the created virtual disk from the system.
+>1.  Opening Computer Management -> Disk Management
+>2. Right-click on the created disk -> Detach VHD -> OK
+
+Only after these steps can you attach the disk to the VM.
+To make changes to the files located on this virtual disk, it needs to be connected back to the system (if the disk is connected to a virtual machine, you need to stop it before starting actions with the disk, in order to avoid problems with a busy device).
+>1. Opening Computer Management -> Disk Management
+>2. Action -> Attach VHD
+>3. Select the disk by its location -> OK
+The disk will appear in explorer.
 
 
 <a name="VM_settings"></a>
-## VM settings
+## VM settings ([graphical representation of text material](#graph_vm_settings))
+We will touch not only the configuration of the virtual machine, but also the creation.
+
+>1. Machine -> New
+>2. Specify the name of the virtual machine and the desired location
+>3. Type -> `Other`
+>4. Version -> `Other/Unknown (64-bit)` -> next
+>5. Allocate the possible amount of RAM -> next
+>6. Hard Disk -> Do not add virtual hard drive -> Create -> Continue
+
+Go to the settings of the virtual machine itself.
+>1. Right-click on the created machine -> Settings
+>2. System -> `Enable EFI (special Forces only)`
+>3. System -> Processor -> Specify the number of processor cores
+>4. Network -> Attached to: `NAT` -> Advanced -> Adapter type: `Paravirtualized Network (virtio-net)`
+>5. Network -> Advanced -> `Port Forwarding` -> Right-click -> Add New Rule -> `Host port: 21841` -> `Guest Port: 21841` -> OK
+>6. Storage -> `Controller: IDE` -> Right-click -> Hard Disk -> Select a previously created disk -> OK
 
 
 
