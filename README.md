@@ -17,20 +17,18 @@ Setting up a virtual disk is very close to setting up a USB drive described on [
 ](https://github.com/Qubic-World/qubic-howto#preparing-usb).
 
 <a name="Installing_Virtual-Box"></a>
-## Installing Virtual Box
+## Installing Virtual Box ([graphical representation of text material](#graph_installing_virtual_box))
 You can download VirtualBox from any website, but I advise you to use the [official website](https://www.virtualbox.org/).
 
 >1. Download VirtualBox by clicking on the big blue `Download` button
-
 >2. After selecting the desired operating system
-
 >3. Start the installation by double-clicking on the installer shortcut.
 `next -> next -> next -> yes -> Install`
 
 ---
 
-<a name="#Preparing_the_boot_disk"></a>
-## Preparing the boot disk
+<a name="Preparing_the_boot_disk"></a>
+## Preparing the boot disk ([graphical representation of text material](#graph_preparing_boot_disk))
 We create a virtual disk using standard Windows tools.
 
 >1. Opening Computer Management
@@ -42,16 +40,47 @@ We create a virtual disk using standard Windows tools.
 >7. Click OK
 
 After the completed actions, a new space will appear in Computer Management. For further configuration, we do the following steps.
-1. Right-click on Disk* (Unknown)
-2. Initialize disk
-3. Choose the markup style `MBR' -> OK
-4. Right-click on the free space of the new disk (Unallocated)
-5. New Simple Volume -> next -> next -> next ->
-6. File system - `FAT32`
-7. Next -> Finish
+>1. Right-click on Disk* (Unknown)
+>2. Initialize disk
+>3. Choose the markup style `MBR' -> OK
+>4. Right-click on the free space of the new disk (Unallocated)
+>5. New Simple Volume -> next -> next -> next ->
+>6. File system - `FAT32`
+>7. Next -> Finish
 
 The new memory space will appear in explorer as a separate disk.
 
 
 <a name="VM_settings"></a>
 ## VM settings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="graph_installing_virtual_box"></a>
+Each screenshot shows a sequence of actions.
+
+![alt text](screenshots/virtual_box_main_page.png)
+![alt text](screenshots/virtual_box_download.png)
+![alt text](screenshots/install1.png)
+![alt text](screenshots/install2.png)
+![alt text](screenshots/install3.png)
+![alt text](screenshots/install4.png)
+![alt text](screenshots/install5.png)
+![alt text](screenshots/install6.png)
+
+
+<a name="graph_preparing_boot_disk"></a>
+Each screenshot shows a sequence of actions.
