@@ -42,7 +42,7 @@ We create a virtual disk using standard Windows tools.
 After the completed actions, a new space will appear in Computer Management. For further configuration, we do the following steps.
 >1. Right-click on Disk* (Unknown)
 >2. Initialize disk
->3. Choose the markup style `MBR' -> OK
+>3. Choose the markup style `MBR` -> OK
 >4. Right-click on the free space of the new disk (Unallocated)
 >5. New Simple Volume -> next -> next -> next ->
 >6. File system - `FAT32`
