@@ -23,7 +23,7 @@ You can download VirtualBox from any website, but I advise you to use the [offic
 >1. Download VirtualBox by clicking on the big blue `Download` button
 >2. After selecting the desired operating system
 >3. Start the installation by double-clicking on the installer shortcut.
-[`next -> next -> next -> yes -> Install`]
+[`next -> next -> next -> yes -> Install`]()
 
 ---
 
