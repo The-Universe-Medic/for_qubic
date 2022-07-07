@@ -5,8 +5,8 @@
 ---
  1. [Installation on a VM (Virtual Box) on a WinServer or Win10 host](#install_on_vm)
     1. [Installing Virtual Box](#Installing_Virtual-Box)
-    1. [Preparing the boot disk](#Preparing_the_boot_disk)
-    2. [VM settings](#VM_settings)
+    2. [Preparing the boot disk](#Preparing_the_boot_disk)
+    3. [VM settings](#VM_settings)
 
 
 ---
@@ -22,26 +22,36 @@ You can download VirtualBox from any website, but I advise you to use the [offic
 
 >1. Download VirtualBox by clicking on the big blue `Download` button
 
-![all text](screenshots/virtual_box_main_page.png)
 >2. After selecting the desired operating system
 
-![all text](screenshots/virtual_box_download.png)
 >3. Start the installation by double-clicking on the installer shortcut.
 `next -> next -> next -> yes -> Install`
 
-![all text](screenshots/install1.png)
-![all text](screenshots/install2.png)
-![all text](screenshots/install3.png)
-![all text](screenshots/install4.png)
-![all text](screenshots/install5.png)
-![all text](screenshots/install6.png)
-
+---
 
 <a name="#Preparing_the_boot_disk"></a>
 ## Preparing the boot disk
 We create a virtual disk using standard Windows tools.
-1. 
-2. vdf
+
+>1. Opening Computer Management
+>2. Action -> Create VHD
+>3. In the `location` field, specify the full path to the file and its name
+>4. In the Virtual hard disk size line, specify the required volume of the disk being created
+>5. Specify `VHD` as the disk format
+>6. Specify `Fixed size` as the disk type (There were problems with the file system markup with dynamic volume, I'm deciding how to get around it)
+>7. Click OK
+
+After the completed actions, a new space will appear in Computer Management. For further configuration, we do the following steps.
+1. Right-click on Disk* (Unknown)
+2. Initialize disk
+3. Choose the markup style `MBR' -> OK
+4. Right-click on the free space of the new disk (Unallocated)
+5. New Simple Volume -> next -> next -> next ->
+6. File system - `FAT32`
+7. Next -> Finish
+
+The new memory space will appear in explorer as a separate disk.
+
 
 <a name="VM_settings"></a>
 ## VM settings
