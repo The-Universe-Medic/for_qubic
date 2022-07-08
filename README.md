@@ -139,17 +139,17 @@ Each screenshot shows a sequence of actions.
 ## Preparing the boot disk (graphical representation)
 Each screenshot shows a sequence of actions.
 
-![alt text](screenshots/disk1.png)
-![alt text](screenshots/disk2.png)
-![alt text](screenshots/disk3.png)
-![alt text](screenshots/disk4.png)
-![alt text](screenshots/disk5.png)
-![alt text](screenshots/disk6.png)
-![alt text](screenshots/disk7.png)
-![alt text](screenshots/disk8.png)
-![alt text](screenshots/disk9.png)
-![alt text](screenshots/disk10.png)
-![alt text](screenshots/disk11.png)
+![Stack size](screenshots/disk1.png)
+![Stack size](screenshots/disk2.png)
+![Stack size](screenshots/disk3.png)
+![Stack size](screenshots/disk4.png)
+![Stack size](screenshots/disk5.png)
+![Stack size](screenshots/disk6.png)
+![Stack size](screenshots/disk7.png)
+![Stack size](screenshots/disk8.png)
+![Stack size](screenshots/disk9.png)
+![Stack size](screenshots/disk10.png)
+![Stack size](screenshots/disk11.png)
 
 
 <br>
