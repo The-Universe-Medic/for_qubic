@@ -99,6 +99,34 @@ Go to the settings of the virtual machine itself.
 >5. Network -> Advanced -> `Port Forwarding` -> Right-click -> Add New Rule -> `Host port: 21841` -> `Guest Port: 21841` -> OK
 >6. Storage -> `Controller: IDE` -> Right-click -> Hard Disk -> Select a previously created disk -> OK
 
+<br>
+
+---
+
+<br>
+
+<a name="How_to_place_Qubic_files_on_disk"></a>
+## How to place Qubic files on disk 
+
+Below I describe exactly the files that I use. You can do it differently.
+All these files (except Qubic.efi) can be downloaded [here]().
+The Qubic.efi file itself is the result of compiling the code (insert your own).
+
+```
+└── mining.data
+└── solution.data
+└── system.data
+└── efi
+     └── boot
+           └── bootaa64.efi
+           └── bootarm.efi
+           └── bootia32.efi
+           └── bootriscv64.efi
+           └── bootx64.efi
+           └── HttpDxe.efi
+           └── Qubic.efi
+           └── startup.nsh 
+```
 
 <br>
 
@@ -177,8 +205,3 @@ Each screenshot shows a sequence of actions.
 ![Stack size](screenshots/set13.png)
 
 
-```mermaid
-erDiagram
-    CUSTOMER ||--o{ ORDER : boot
-    boot ||--|{ efi : efi
-```
