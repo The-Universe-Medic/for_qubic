@@ -162,19 +162,19 @@ Each screenshot shows a sequence of actions.
 ## VM settings (graphical representation)
 Each screenshot shows a sequence of actions.
 
-![alt text](screenshots/set1.png)
-![alt text](screenshots/set2.png)
-![alt text](screenshots/set3.png)
-![alt text](screenshots/set4.png)
-![alt text](screenshots/set5.png)
-![alt text](screenshots/set6.png)
-![alt text](screenshots/set7.png)
-![alt text](screenshots/set8.png)
-![alt text](screenshots/set9.png)
-![alt text](screenshots/set10.png)
-![alt text](screenshots/set11.png)
-![alt text](screenshots/set12.png)
-![alt text](screenshots/set13.png)
+![Stack size](screenshots/set1.png)
+![Stack size](screenshots/set2.png)
+![Stack size](screenshots/set3.png)
+![Stack size](screenshots/set4.png)
+![Stack size](screenshots/set5.png)
+![Stack size](screenshots/set6.png)
+![Stack size](screenshots/set7.png)
+![Stack size](screenshots/set8.png)
+![Stack size](screenshots/set9.png)
+![Stack size](screenshots/set10.png)
+![Stack size](screenshots/set11.png)
+![Stack size](screenshots/set12.png)
+![Stack size](screenshots/set13.png)
 
 
 
