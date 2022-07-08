@@ -1,20 +1,33 @@
 # QUBIC
 ## Various information that helped me in setting up and installing qubic
+<br>
+
+---
+
+<br>
 
 ## Table Of Contents
 ---
- 1. [Installation on a VM (Virtual Box) on a WinServer or Win10 host](#install_on_vm)
-    1. [Installing Virtual Box](#Installing_Virtual-Box)
-    2. [Preparing the boot disk](#Preparing_the_boot_disk)
-    3. [VM settings](#VM_settings)
+> 1. [Installation on a VM (Virtual Box) on a WinServer or Win10 host](#install_on_vm)
+>    1. [Installing Virtual Box](#Installing_Virtual-Box)
+>    2. [Preparing the boot disk](#Preparing_the_boot_disk)
+>    3. [VM settings](#VM_settings)
+>    4. [How to place Qubic files on disk](#How_to_place_Qubic_files_on_disk)
 
+<br>
+<br>
 
----
 <a name="install_on_vm"></a>
 # Installation on a VM (Virtual Box) on a WinServer or Win10 host
 To work on a virtual machine, we will need a virtualization software product (in our case, VirtualBox) and a boot disk, which we will make using Windows OS.
 Setting up a virtual disk is very close to setting up a USB drive described on [Qubic-World
 ](https://github.com/Qubic-World/qubic-howto#preparing-usb).
+
+<br>
+
+---
+
+<br>
 
 <a name="Installing_Virtual-Box"></a>
 ## Installing Virtual Box ([graphical representation of text material](#graph_installing_virtual_box))
@@ -25,7 +38,11 @@ You can download VirtualBox from any website, but I advise you to use the [offic
 >3. Start the installation by double-clicking on the installer shortcut.
 `next -> next -> next -> yes -> Install`
 
+<br>
+
 ---
+
+<br>
 
 <a name="Preparing_the_boot_disk"></a>
 ## Preparing the boot disk ([graphical representation of text material](#graph_preparing_boot_disk))
@@ -59,6 +76,11 @@ To make changes to the files located on this virtual disk, it needs to be connec
 >3. Select the disk by its location -> OK
 The disk will appear in explorer.
 
+<br>
+
+---
+
+<br>
 
 <a name="VM_settings"></a>
 ## VM settings ([graphical representation of text material](#graph_vm_settings))
@@ -80,9 +102,11 @@ Go to the settings of the virtual machine itself.
 >6. Storage -> `Controller: IDE` -> Right-click -> Hard Disk -> Select a previously created disk -> OK
 
 
+<br>
 
+---
 
-
+<br>
 
 
 
@@ -95,6 +119,7 @@ Go to the settings of the virtual machine itself.
 
 
 <a name="graph_installing_virtual_box"></a>
+## Installing Virtual Box (graphical representation)
 Each screenshot shows a sequence of actions.
 
 ![alt text](screenshots/virtual_box_main_page.png)
@@ -106,6 +131,39 @@ Each screenshot shows a sequence of actions.
 ![alt text](screenshots/install5.png)
 ![alt text](screenshots/install6.png)
 
+<br>
+
+---
+
+<br>
 
 <a name="graph_preparing_boot_disk"></a>
+## Preparing the boot disk (graphical representation)
 Each screenshot shows a sequence of actions.
+
+<br>
+
+---
+
+<br>
+
+<a name="graph_vm_settings"></a>
+## VM settings (graphical representation)
+Each screenshot shows a sequence of actions.
+
+![alt text](screenshots/set1.png)
+![alt text](screenshots/set2.png)
+![alt text](screenshots/set3.png)
+![alt text](screenshots/set4.png)
+![alt text](screenshots/set5.png)
+![alt text](screenshots/set6.png)
+![alt text](screenshots/set7.png)
+![alt text](screenshots/set8.png)
+![alt text](screenshots/set9.png)
+![alt text](screenshots/set10.png)
+![alt text](screenshots/set11.png)
+![alt text](screenshots/set12.png)
+![alt text](screenshots/set13.png)
+
+
+
