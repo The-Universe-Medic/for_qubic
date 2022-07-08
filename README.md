@@ -109,7 +109,7 @@ Go to the settings of the virtual machine itself.
 ## How to place Qubic files on disk 
 
 Below I describe exactly the files that I use. You can do it differently.
-All these files (except Qubic.efi) can be downloaded [here]().
+All these files (except Qubic.efi) can be downloaded [here](https://mega.nz/folder/Yx5jCA4B#ouRFwLg_32Z1vdqvK1y16Q). If you are afraid to open it .zip from a stranger - I will place a folder with the same files next to the archive :)
 The Qubic.efi file itself is the result of compiling the code (insert your own).
 
 ```
